@@ -1,7 +1,7 @@
 # Fakenewschallenge-2
 
 ## Problem Definition
-Stance detection involves determining the relative perspective or opinion expressed in one text in comparison to another text. In the FNC-1 dataset, the task involves comparing article bodies with headlines and classifying them into four categories: ‘unrelated’, ‘agree’, ‘disagree’, and ‘discuss’ without taking a position.
+This case is provided by fake news challenge organization which is dedicated to explore the use of artificial intelligence technologies. Stance detection involves determining the relative perspective or opinion expressed in one text in comparison to another text. In the FNC-1 dataset, the task involves comparing article bodies with headlines and classifying them into four categories: ‘unrelated’, ‘agree’, ‘disagree’, and ‘discuss’ without taking a position.
 
 The dataset consists of two separate files: one containing article bodies and the other containing headlines with stances. Each article body is paired with several headlines, and each pair is assigned a stance classification. Therefore, the input for this task includes headlines and body texts, and the output is the corresponding stance category. The training dataset consists of 49,972 instances, with approximately 73% labelled as unrelated, 18% as 'discuss', 7% as 'agree', and 2% as 'disagree'.
 
