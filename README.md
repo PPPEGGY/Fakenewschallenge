@@ -12,7 +12,5 @@ This problem can be tackled in two steps, involving a hierarchical architecture.
 Before training a model on the data, the corpora need to be converted into numerical features. This report discusses two methods of feature extraction: Tf-idf and transformers, both of which can be used with machine learning and deep learning models. The following sections will explain how these methods work, along with their advantages and disadvantages.
 
 ## Training
-In this report, we seperate this challenge into two cases: binary classification and multi-class classification. 
-
-First, we classify the data into related and unrelated stances which are trained with TFIDF and XGBoost. Then, we use MLP+TFIDF to train multi-class classfication which have agree, disagree and discuss classes within related stances.
+In this report, we seperate this challenge into two cases: binary classification and multi-class classification. First, we classify the data into related and unrelated stances which are trained with TFIDF and XGBoost. Then, we use MLP+TFIDF to train multi-class classfication which have agree, disagree and discuss classes within related stances.
 
